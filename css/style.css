@@ -1,0 +1,32 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+
+/* visual */
+
+#visual #photo{width: 100%; position: relative;margin-top: 50px;}
+
+/* container */
+
+#container {width: 100%;}
+#container .cont1 ul:after{content: '';display: block;clear: both;}
+#container .cont1 .tit{font-size: 1.75em;text-align: center;margin-top: 20px;margin-bottom: 20px;  font-weight: bold;}
+
+
+#container .cont1 ul li{position: relative; float: left;width: 33.3%;}
+#container .cont1 ul li img{width: 100%;}
+#container .cont1 ul li p{position: absolute; display: block; text-align: center;color: #fff;background-color: #555;
+width: 100%; top: 50%;margin-top: -12px;opacity: 0.7;}
+
+#container .banner{width: 100%;}
+#container .banner h1 a img{width: 100%;  margin: 30px 0;}
+
+#container #ad{width: 100%;position: relative;padding-top: 45px;}
+#container #ad li a img{width: 100%;height: auto;}
+
+#container .cont2 .tit{font-size: 1.75em;text-align: center;margin: 20px 0;font-weight: bold;}
+#container .cont2 ul:after{content: '';display: block;clear: both;}
+#container .cont2 ul li{width: 25%; float: left;}
+#container .cont2 ul li a img{width: 100%;}
+

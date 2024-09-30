@@ -1,0 +1,45 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+/* 약관동의 스타일 */
+#container3{
+    background-color: #eee;width: 100%;padding-bottom: 5%;
+    border-bottom: 2px solid #424c55;
+}
+
+#container3 h1{width: 50%;margin: 0 auto;padding: 60px 0 20px 0;
+color: #173163;font-size: 2em;}
+#container3 .memo{width: 90%;margin: 0 auto;}
+#container3 .memo p{width: 100%;padding: 10px 0 30px;
+font-size: 1.25em;text-align: justify;}
+
+#container3 form h2{
+    width: 90%;margin: 0 auto;text-align: left;
+    font-size: 1.25em;padding: 10px;color: #173163;
+}
+#container3 form textarea{
+    width: 90%;margin: 0 auto;border: 1px solid #aaa;
+    color: #999;height: 190px;overflow-x: hidden;
+    overflow-y: scroll;resize: none;vertical-align: top;
+    font-size: 1em;
+}
+#container3 form input[type="checkbox"]{width: 20px;height: 20px;}
+.allagr, .agr1, .agr2 {width: 90%;text-align: left;
+    margin: 0 auto;padding-bottom: 10px;}
+
+#container3 form .agrBtn{
+    width: 100%;margin: 0 auto;padding-bottom: 50px;
+}
+#container3 form .agrBtn input:first-child{
+    width: 20%;margin: 10px;padding: 5px 0;
+    border: 1px solid #173163;
+    background-color: #2f6363;color: #fff;
+    font-weight: bold;cursor: pointer;
+}
+#container3 form .agrBtn input:last-child{
+    width: 20%;margin: 10px;padding: 5px 0;
+    border: 1px solid #333;
+    background-color: #808080;color: #fff;
+    font-weight: bold;cursor: pointer;
+}

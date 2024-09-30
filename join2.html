@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/join2.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+
+</head>
+<body>
+    <div class="totop">
+        <a href="#top"><img src="img/btn_totop.png" alt="totop"></a>
+    </div>
+
+    <div id="header">
+        
+        <p class="menuBtn">menu</p>
+        <h1 class="logo"><a href="index.html"><img src="img/caselogo.png" alt="logo"></a></h1>
+        <p class="cart"><a href="order.html">cart</a></p>
+        <p class="search">search</p>
+        <nav class="nav">
+            <ul class="clear">
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="join.html">JOIN</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="order.html">ORDER</a></li>
+                <li><a href="customer.html">CUSTOM</a></li>
+            </ul>
+        </nav>
+
+        <!--  search폼  -->
+    <div class="search_wrap">
+        <form action="#" class="search_box">
+            <fieldset>
+                <legend class="blind">검색폼</legend>
+                <input type="search" placeholder="검색어입력">
+                <input type="image" class="searchBtn" src="img/icon/searchwt.png" alt="검색">
+            </fieldset>
+        </form>
+    </div><!-- search end -->
+        
+    
+    </div> <!-- header end -->
+    
+
+    <!-- 회원가입폼 -->
+
+    <section id="container4">
+        <h1>회원가입</h1>
+        <form action="regist.php" name="join" method="post"  onsubmit="return formCheck()">
+            <table>
+                <caption class="blind">회원가입방식</caption>
+                <colgroup>
+                    <col width="20%">
+                    <col width="*">
+                </colgroup>
+                    <tbody>
+                        <tr>
+                            <th><label for="id">아이디</label></th>
+                            <td>
+                                <input type="text" name="id" id="id" maxlength="15" placeholder="아이디 입력">
+                                <br> 8자리 이상 문자입력
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label for="pw">비밀번호</label></th>
+                            <td>
+                                <input type="password" name="pw" id="pw" maxlength="15" placeholder="비밀번호 입력">
+                                <br> *8자리 이상 문자입력
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label for="irum">회원명</label></th>
+                            <td>
+                                <input type="text" name="irum" id="irum" maxlength="15" placeholder="회원명 입력">
+                                <br> *8자리 이상 문자입력
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label for="email">이메일</label></th>
+                            <td>
+                                <input type="text" name="email" id="email" maxlength="50" placeholder="이메일 입력">
+                                <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label for="hp">HP</label></th>
+                            <td>
+                                <input type="text" name="hp" id="hp" maxlength="13" placeholder="전화번호 입력">
+                                <br> *지역번호를 포함 숫자만 입력
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label for="know">Case With You를 알게된 경로</label></th>
+                            <td>
+                                <select name="know" id="know">
+                                    <option value="--">Case With You를 알게된 경로</option>
+                                    <option value="TV나 인터넷 광고를 보고">TV나 인터넷 광고를 보고</option>
+                                    <option value="SNS를 보고">SNS를 보고</option>
+                                    <option value="친구나 지인을 추천을 받고">친구나 지인을 추천을 받고</option>
+                                    <option value="웹서핑을 하다가">웹서핑을 하다가</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                
+            </table>
+            <p id="confirm">
+                <input type="submit" value="회원가입">
+                <input type="reset" value="다시쓰기">
+            </p>
+        </form>
+
+    </section>
+
+
+    <footer id="footer">
+        <div class="inner">
+
+            <h3>Company Info</h3>
+
+        
+            <div class="flist1">
+                <ul>
+                    <li><p>상점명</p><span>Geeky!</span></li>
+                    <li><p>대표이사</p><span>이희수</span></li>
+                    <li><p>대표전화</p><span>070-4046-0505</span></li>
+                    <li><p>주소</p><span>경기 안양시 동안구 엘에스로116번길 25-32 안양 SK V1 center 811호</span></li>
+                    <li><p>사업자등록번호</p><span>262-68-00253</span></li>
+                    <li><p>통신판매업신고</p><span>2019-안양동안-0212</span></li>
+                    <li><p>개인정보관리책임자</p><span>이희수geekycase@gmail.com</span></li>
+                    <li><p>호스팅제공</p><span>심플렉스인터넷(주)</span></li>
+                </ul>     
+            </div>
+            
+        </div>
+
+        <div class="sns">
+            <li><a href="#"><img src="img/icon/insta.png" alt="instagram"></a></li>
+            <li><a href="#"><img src="img/icon/facebook2.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="img/icon/youtube.png" alt="youtube"></a></li>
+
+        </div>
+    </footer><!-- footer end -->
+    
+
+    <script src="js/common.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/formcheck.js"></script>
+</body>
+</html>

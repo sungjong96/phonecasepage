@@ -1,0 +1,44 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+/* detail */
+
+#ptitle2 {position: relative;padding-top: 70px;}    
+
+#ptitle2 .back1:after{content: '';display: block;clear: both;}
+#ptitle2 .back1 a img{display: block;position: absolute;left: 20px;top: 80px;width: 30px;height: 30px;}
+
+#ptitle2 > h1{font-size: 2em;font-weight: bold;margin: 0 auto;}
+
+#ptitle2 .cont2{
+    border: 1px solid rgb(110, 110, 110);
+    box-sizing: border-box;
+    width: 90%;overflow: hidden;
+    margin: 30px auto; 
+}
+#ptitle2 .cont2 ul li{margin: 5px; float: left;width: 45%;}
+#ptitle2 .cont2 ul li img{width: 100%;vertical-align: top;}
+
+#ptitle2 .cont2 ul li fieldset label{font-weight: bold;}
+
+#ptitle2 .cont2 ul li input[type='button']{
+    width: 70px;height: 26px;background-color: #505050;
+    color: #fff; font-weight: bold; border: none;
+}
+
+/* 상세이미지 */
+
+#ptitle2 .cont3 {
+    box-sizing: border-box;
+    width: 90%;overflow: hidden;
+    margin: 20px auto;}
+#ptitle2 .cont3 h2{width: 100%;font-size: 2em;color: #333;
+text-align: center; margin-bottom: 10px;}
+#ptitle2 .cont3 ul li{width: 100%;}
+#ptitle2 .cont3 ul li img{width: 100%;}
+
+a.more{color: red;}
+a.more2{color: blue;}
+a.more, a.more2{display: block; text-align: center;font-weight: bold;background-color: #fff;
+font-size: 1.25em;line-height: 30px;}

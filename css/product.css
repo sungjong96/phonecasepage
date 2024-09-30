@@ -1,0 +1,28 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+#category {width: 100%;}
+#category ul{padding-top: 50px;}
+#category ul:after{content: '';display: block;clear: both;}
+#category ul li{width: 33.3%;height: 70px;float: left;background: rgb(222,222,222);
+    background: linear-gradient(135deg, rgba(222,222,222,1) 4%, rgba(79,79,79,1) 100%);}
+#category ul li a{text-align: center;line-height: 70px;font-size: 1.25em;font-weight: bold;color: #fff;}
+
+#ptitle {position: relative;margin-top: 20px;}
+#ptitle .back1:after{content: '';display: block;clear: both;}
+#ptitle .back1 a img{display: block; width: 30px;height: 30px;position: absolute;left: 20px;top: 10px;}
+
+#ptitle h1{font-size: 2em;font-weight: bold;padding-top: 20px;}
+
+#ptitle .plist{position: absolute;right: 20px;top: 30px;}
+
+#container {width: 100%;padding-top: 20px;padding-bottom: 5%;
+    border-bottom: 2px solid #424c55;}
+#container ul{margin: 0 5%;}
+#container ul:after{content: '';display: block;clear: both;}
+#container ul li {width: 49%;float: left;margin: 5% 0.5%;}
+#container ul li a img{width: 100%;}
+#container ul li > div{height: 30px;}
+#container ul li div p{border-bottom: 1px dashed #708090;margin: 5px 0;}
+#container ul li div em{padding: 5px 0;}

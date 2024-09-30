@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    
+
+</head>
+<body>
+    
+    <div id="header">
+        
+        <p class="menuBtn">menu</p>
+        <h1 class="logo"><a href="index.html"><img src="img/caselogo.png" alt="logo"></a></h1>
+        <p class="cart"><a href="order.html">cart</a></p>
+        <p class="search">search</p>
+        <nav class="nav">
+            <ul class="clear">
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="join.html">JOIN</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="order.html">ORDER</a></li>
+                <li><a href="customer.html">CUSTOM</a></li>
+            </ul>
+        </nav>
+
+        <!--  search폼  -->
+    <div class="search_wrap">
+        <form action="#" class="search_box">
+            <fieldset>
+                <legend class="blind">검색폼</legend>
+                <input type="search" placeholder="검색어입력">
+                <input type="image" class="searchBtn" src="img/icon/searchwt.png" alt="검색">
+            </fieldset>
+        </form>
+    </div><!-- search end -->
+        
+    
+    </div> <!-- header end -->
+
+    <!-- login 폼 -->
+    <section id="container2">
+        <h1>로그인</h1>
+        <div class="loginPage">
+            <form action="login_ok.php" name="frm" method="post" 
+            onsubmit="return idpwCheck()">
+                <fieldset>
+                    <legend class="blind">로그인폼</legend>
+                    <div class="inputText">
+                        <p>
+                            <label for="id" class="blind">Member id</label>
+                            <input type="text" name="ida" id="ida" placeholder="아이디입력" title="아이디입력">
+                        </p>
+                        <p>
+                            <label for="pw" class="blind">Password</label>
+                            <input type="password" name="pwa" id="pwa" placeholder="비밀번호입력" title="비밀번호입력">
+                        </p>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="로그인">
+                    </div>
+                </fieldset>
+            </form>
+            <div class="joinSearch">
+                <a href="join.html">회원가입</a>
+                <a href="#">아이디/비밀번호 찾기</a>
+            </div>
+            <div class="snslink">
+                <a href="#"><img src="img/naver.png" alt="naver"></a>
+                <a href="#"><img src="img/kakao.png" alt="kakao"></a>
+                <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="inner">
+
+            <h3>Company Info</h3>
+
+        
+            <div class="flist1">
+                <ul>
+                    <li><p>상점명</p><span>Geeky!</span></li>
+                    <li><p>대표이사</p><span>이희수</span></li>
+                    <li><p>대표전화</p><span>070-4046-0505</span></li>
+                    <li><p>주소</p><span>경기 안양시 동안구 엘에스로116번길 25-32 안양 SK V1 center 811호</span></li>
+                    <li><p>사업자등록번호</p><span>262-68-00253</span></li>
+                    <li><p>통신판매업신고</p><span>2019-안양동안-0212</span></li>
+                    <li><p>개인정보관리책임자</p><span>이희수geekycase@gmail.com</span></li>
+                    <li><p>호스팅제공</p><span>심플렉스인터넷(주)</span></li>
+                </ul>     
+            </div>
+            
+        </div>
+
+        <div class="sns">
+            <li><a href="#"><img src="img/icon/insta.png" alt="instagram"></a></li>
+            <li><a href="#"><img src="img/icon/facebook2.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="img/icon/youtube.png" alt="youtube"></a></li>
+
+        </div>
+    </footer><!-- footer end -->
+   
+
+    <script src="js/common.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

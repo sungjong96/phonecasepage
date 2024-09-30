@@ -1,0 +1,42 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+/* 회원가입폼 */
+
+#container4{background-color: #eee;width: 100%;padding-bottom: 5%;
+    border-bottom: 2px solid #424c55;}
+#container4 h1{width: 50%;margin: 0 auto;
+padding: 60px 0 40px 0;color: #173163;font-size: 2em;}
+
+#container4 form{width: 80%;padding-top: 20px;margin: 0 auto;
+margin-bottom: 40px;}
+
+#container4 form table{width: 100%;border-collapse: collapse;}
+#container4 form tbody th{width: 0; padding: 5px 0; display: none;}
+
+#container4 form td{width: 100%;padding: 5px 0;margin: 0 auto;}
+#container4 form td input{width: 100%;height: 40px;
+    border: 3px solid #385470;
+    font-size: 1.25em;text-indent: 10px;line-height: 40px;
+    outline: none;margin-bottom: 5px;border-radius: 30px;}
+#container4 form td select{width: 100%;height: 40px;
+    border: 3px solid #385470;
+    font-size: 1.25em;text-indent: 10px;line-height: 40px;
+    outline: none;margin-bottom: 5px;border-radius: 30px;}
+
+
+#container4 #confirm{text-align: center;padding: 10px 0;
+margin: 20px 0 20px;}
+#container4 #confirm input:first-child{
+    width: 40%;margin: 5px;padding: 10px 0;
+    border: 0;background-color: #2f4f4f;
+    color: #fff;font-size: 1.25em;font-weight: bold;
+    cursor: pointer;border-radius: 10px;
+}
+#container4 #confirm input:last-child{
+    width: 40%;margin: 5px;padding: 10px 0;
+    border: 0;background-color: #79626d;
+    color: #fff;font-size: 1.25em;font-weight: bold;
+    cursor: pointer;border-radius: 10px;
+}

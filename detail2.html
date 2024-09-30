@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail2</title>
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="js/jquery.bxslider/jquery.bxslider.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+    <div class="totop">
+        <a href="#top"><img src="img/btn_totop.png" alt="totop"></a>
+    </div>
+
+    <div id="header">
+        
+        <p class="menuBtn">menu</p>
+        <h1 class="logo"><a href="index.html"><img src="img/caselogo.png" alt="logo"></a></h1>
+        <p class="cart"><a href="order.html">cart</a></p>
+        <p class="search">search</p>
+
+        <nav class="nav">
+            <ul class="clear">
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="join.html">JOIN</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="order.html">ORDER</a></li>
+                <li><a href="customer.html">CUSTOM</a></li>
+            </ul>
+        </nav>
+
+        <!--  search폼  -->
+    <div class="search_wrap">
+        <form action="#" class="search_box">
+            <fieldset>
+                <legend class="blind">검색폼</legend>
+                <input type="search" placeholder="검색어입력">
+                <input type="image" class="searchBtn" src="img/icon/searchwt.png" alt="검색">
+            </fieldset>
+        </form>
+    </div><!-- search end -->
+        
+    
+    </div> <!-- header end -->
+
+    <div id="ptitle2">
+        <div class="back1"><a href="javascript:history.back();"><img src="img/icon/back.png" alt="back"></a></div>
+        <h1>하드케이스</h1>
+        
+        <div class="cont2">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/hardcase/2[맥세이프 투명]purity no.07.jpg" alt="hard02">
+                    </a>
+                </li>
+                <li>
+                    <form action="#" name="form1">
+                        <fieldset>
+                            <legend class="blind">가격계산품</legend>
+                            <label for="su1">가격 : 23,900원</label>
+                            <input type="hidden" name="su1" id="su1" value="23900">
+                            <br><br>
+                            <label for="su2">수량 : </label>
+                            <input type="number" name="su2" id="su2" 
+                            min="1" max="10" start="1" value="1">
+                            <br><br>
+                            <select name="fphone" id="fp">
+                                <option value="--">기종선택</option>    
+                                <option value="맥세이프-아이폰 15 PRO">맥세이프-아이폰 15 PRO</option>
+                                <option value="맥세이프-아이폰 15 PRO MAX">맥세이프-아이폰 15 PRO MAX</option>
+                                <option value="맥세이프-아이폰 15 ">맥세이프-아이폰 15 </option>
+                                <option value="맥세이프-아이폰 15 PLUS">맥세이프-아이폰 15 PLUS</option>
+                                <option value="맥세이프-아이폰 14 PRO">맥세이프-아이폰 14 PRO</option>
+                                <option value="맥세이프-아이폰 14 PRO MAX">맥세이프-아이폰 14 PRO MAX</option>
+                                <option value="맥세이프-아이폰 14 ">맥세이프-아이폰 14 </option>
+                                <option value="맥세이프-아이폰 14 PLUS">맥세이프-아이폰 14 PLUS</option>
+                                <option value="맥세이프-아이폰 13 PRO ">맥세이프-아이폰 13 PRO </option>
+                                <option value="맥세이프-아이폰 13 PRO MAX">맥세이프-아이폰 13 PRO MAX</option>
+                                <option value="맥세이프-아이폰 13 ">맥세이프-아이폰 13</option>
+                                <option value="맥세이프-아이폰 13 mini">맥세이프-아이폰 13 mini</option>
+                                <option value="맥세이프-아이폰 12 PRO / 12">맥세이프-아이폰 12 PRO / 12</option>
+                                <option value="맥세이프-아이폰 12 PRO MAX">맥세이프-아이폰 12 PRO MAX</option>
+                                <option value="맥세이프-아이폰 12 mini">맥세이프-아이폰 12 mini</option>
+                            </select>
+                            <br><br>
+                            <div class="tVal">phone</div>
+                            <br>
+                            <input type="button" value="계산하기" onclick="calc(su1.value,su2.value)">
+                            <br><br>
+                            <label for="resVal">최종가격</label>
+                            <input type="text" id="resVal">
+                            <br><br>
+                            <input type="button" id="basket" onclick="basketGo()" value="장바구니">
+                            &nbsp; <input type="button" id="shopping" onclick="shopGo()" value="쇼핑계속">
+                        </fieldset>
+
+                    </form>
+                </li>
+            </ul>
+        </div>
+
+        <div class="cont3">
+            <h2>Detail View</h2>
+            <ul class="detailimage">
+                <li><img src="img/detail/detail2-1.jpg" alt="detail2-1"></li>
+                <li><img src="img/detail/detail2-2.jpg" alt="detail2-2"></li>
+                <li><img src="img/detail/detail2-3.jpg" alt="detail2-3"></li>
+                <li><img src="img/detail/detail2-4.jpg" alt="detail2-4"></li>
+            </ul>
+        </div>
+
+        <a href="#" class="more">더보기▼</a>
+        <a href="#" class="more2" style="display: none;">더보기▲</a>
+    </div>
+
+
+
+
+
+
+
+    <footer id="footer">
+        <div class="inner">
+
+            <h3>Company Info</h3>
+
+        
+            <div class="flist1">
+                <ul>
+                    <li><p>상점명</p><span>Geeky!</span></li>
+                    <li><p>대표이사</p><span>이희수</span></li>
+                    <li><p>대표전화</p><span>070-4046-0505</span></li>
+                    <li><p>주소</p><span>경기 안양시 동안구 엘에스로116번길 25-32 안양 SK V1 center 811호</span></li>
+                    <li><p>사업자등록번호</p><span>262-68-00253</span></li>
+                    <li><p>통신판매업신고</p><span>2019-안양동안-0212</span></li>
+                    <li><p>개인정보관리책임자</p><span>이희수geekycase@gmail.com</span></li>
+                    <li><p>호스팅제공</p><span>심플렉스인터넷(주)</span></li>
+                </ul>     
+            </div>
+            
+        </div>
+
+        <div class="sns">
+            <li><a href="#"><img src="img/icon/insta.png" alt="instagram"></a></li>
+            <li><a href="#"><img src="img/icon/facebook2.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="img/icon/youtube.png" alt="youtube"></a></li>
+
+        </div>
+    </footer><!-- footer end -->
+
+    <script src="js/common.js"></script>
+    <script>
+        function basketGo(){
+         alert('장바구니이동');
+         location.href="order.html";
+        }
+        function shopGo(){
+         alert('쇼핑계속');
+         location.href="index.html";
+        }
+        function fcolorChange() {
+            var sel = document.getElementById('fc');
+        
+            var fValue;
+            for(var i=0;i<sel.options.length;i++){
+                if(sel.options[0].selected==true){
+                alert('색상선택');
+                return false;
+                }else if(sel.options[i].selected == true){
+                fValue = sel.options[i].value;
+                $('.tVal').text(fValue).css('background',''+fValue+'');
+                break;
+                }
+            } //for end
+        } 
+        function comma(num){
+            var len, point, str;  
+                
+            num = num + "";  
+            point = num.length % 3 ;
+            
+            len = num.length;  
+            
+            str = num.substring(0, point);  
+            while (point < len) {  
+                if (str != "") str += ",";  
+                str += num.substring(point, point + 3);  
+                point += 3;  
+            }  
+            
+            return str;
+        
+            }
+        
+        function calc(num,num2){
+            
+                var snum=num;
+                var snum2=num2;
+        
+                var res =snum*snum2;
+                var result = comma(res); 
+                
+                /*document.getElementById("resVal").innerHTML=result+"원";*/
+                document.getElementById("resVal").value=result+"원";
+        }
+
+        // 더보기 스크립트
+
+        
+        $('.detailimage li:nth-child(2)').css('display','none');
+        $('.detailimage li:nth-child(3)').css('display','none');
+        $('.detailimage li:last-child').css('display','none');
+
+           
+
+        $('.more').click(function(){     
+
+          $('.detailimage li:nth-child(2)').css('display','block');
+          $('.detailimage li:nth-child(3)').css('display','block');
+          $('.detailimage li:last-child').css('display','block');
+
+          $(this).css('display','none');    
+
+          $('.more2').css('display','block');
+          event.preventDefault();  
+
+        }); 
+
+        $('.more2').click(function(){     
+
+          $('.detailimage li:nth-child(2)').css('display','none');
+          $('.detailimage li:nth-child(3)').css('display','none');
+          $('.detailimage li:last-child').css('display','none');      
+
+          $(this).css('display','none');       
+
+          $('.more').css('display','block');
+          event.preventDefault();     
+
+        });
+
+        // function goBack(){
+        //     history.back();
+        // };
+        
+    </script>
+
+
+</body>
+</html>

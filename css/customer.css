@@ -1,0 +1,30 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+/* customer style */
+
+#container6{width: 100%;padding-bottom: 5%;border-bottom: 2px solid #424c55;}
+#container6 h1{width: 50%;margin: 0 auto;padding: 60px 0 40px 0;font-size: 2em;
+color: #173163;}
+
+#container6 .qnaBox table{width: 70%;margin: 0 auto;}
+#container6 .qnaBox table tr,
+#container6 .qnaBox table td{border: 2px solid #ccc;padding: 10px;
+font-size: 1em;}
+#container6 .qnaBox table td a{color: #173163;}
+#container6 .qnaContents{width: 100%;margin: 60px 0 50px; }
+#container6 .qnaContents dl{width: 100%;}
+#container6 .qnaContents dt{width: 100%;padding: 3px 0;border: 1px solid #ccc;
+background-color: #708090; line-height: 2em;color: #fff;cursor: pointer;}
+
+#container6 .qnaContents dd{display: none;}
+#container6 .qnaContents dd ul.answer{display: none;}
+#container6 .qnaContents dd ul li{width: 80%;margin: 0 auto;font-size: 1em; cursor: pointer;
+padding: 10px;border-bottom: 1px solid #ccc;
+text-align: left;}
+#container6 .qnaContents dd ul.answer li{border: none;}
+#container6 .qnaContents dd ul li .answer{width: 100%;margin: 0 auto;background-color: #fff;text-align: justify;}
+#container6 .qnaContents dd ul li a{display: block; line-height: 20px;}
+#container6 .qnaContents dl dd.on{display: block;}
+#container6 .qnaContents ul.Q li ul.on{display: block;}

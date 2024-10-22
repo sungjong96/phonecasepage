@@ -216,3 +216,12 @@ $('#container6 .qnaContents dd li').click(function(){
   $(this).find('ul.answer').toggleClass('on');
   $(this).siblings().find('ul.answer').removeClass('on');
 });
+
+// 스크롤 탑 부드럽게
+
+$(".totop").click(function(){
+	$('html,body').animate({
+		scrollTop:0
+	},400);
+	return false;
+});
